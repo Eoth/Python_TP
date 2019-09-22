@@ -7,7 +7,7 @@ def pendu_game():
     the_data()
     words=get_data()
     user=user_name()
-    taille= os.path.getsize("C:\\Users\\pakye\\Desktop\\Projet Personnelle\\pack Pyhton\\pendu_data")
+    taille= os.path.getsize("pendu_data")
     val = False
 
     if taille!=0:
